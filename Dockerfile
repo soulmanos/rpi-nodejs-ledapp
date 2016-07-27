@@ -12,7 +12,7 @@ RUN git clone https://github.com/soulmanos/led-arduino-mqtt-nodejs-01.git /usr/s
 # Install app dependencies
 RUN npm install
 
-EXPOSE 8080
+EXPOSE 8079
 
 CMD [ "npm", "start" ]
 
